@@ -1,0 +1,374 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0px;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.b{
+    position: relative;
+    top: -9pc;
+    left: 47pc;
+}
+
+.selected{
+    color: #fff;
+}
+
+.buy{
+    height: 6pc;
+    width: 31pc;
+    font-size: 51px;
+    text-decoration: underline;
+    color: #000;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.8s ease;
+}
+
+#buy:hover{
+    background-color: orangered;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 45px;
+}
+
+.change{
+    width: 17pc;
+    background-color: orangered;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 45px;
+}
+
+.unchange{
+    
+    background-color: transparent;
+    color: #000;
+    text-decoration: underline;
+    border-radius: 70px;
+}
+
+.name{
+    position: absolute;
+    font-size: 35px;
+    top: 5pc;
+    left: 110pc;
+font-family: Georgia, 'Times New Roman', Times, serif;  
+text-shadow: 6px 0px 20px #ddf5dd;
+font-weight: 300;
+color: orange;
+z-index: 2;
+}
+
+.logo {
+    height: 14pc;
+    width: 14pc;
+    margin-top: -1pc;
+    background: transparent;
+    position: absolute;
+    z-index: 2;
+    left: 99.4pc;
+}
+
+.card1{
+    height: 64pc;
+    width: 135pc;
+    position: relative;
+    left: -10px;
+    top: -227px;
+    background: linear-gradient(90deg, #60009F 5%, #360147, #000000);
+}
+
+pre{   
+    color: white;
+    font-size: 294px;
+    position: relative;
+    left: 15%;
+    top: 40%;
+}
+
+
+
+#mocktail1{
+    height: 558px;
+    width: 421px;
+    position: relative;
+    top: -45%;
+    left: 38%;
+    filter: drop-shadow(0px 0px 20px black);
+}
+#lemon{
+    position: relative;
+    top: 7pc;
+    left: 11%;
+    height: 302px;
+    width: 445px;
+    
+}
+
+.card2{
+    height: 51pc;
+    width: 135pc;
+    position: relative;
+    left: -10px;
+    top: -267px;
+    background: linear-gradient(90deg, #60009F 5%, #360147, #000000);
+}
+
+#mocktail2{
+    position: relative;
+    height: 385px;
+    width: 303px;
+    top: 21%;
+    left: 86px;
+}
+
+#lemon2{
+    height: 197px;
+    width: 278px;
+    position: relative;
+    top: 222px;
+    left: -319px;
+}  
+
+.cover{
+    height: 208px;
+    background: linear-gradient(90deg, #60009F 5%, #360147, #000000);
+    width: 135.6pc;
+    position: relative;
+    top: -270px;
+    left: -20px;
+}
+
+#para{
+    position: relative;
+    top: 34%;
+    left: 57%;
+    font-size: 29px;
+    font-weight: 1000;
+    color: white;
+}
+.card3{
+    height: 40pc;
+    width: 135pc;
+    position: relative;
+    left: -10px;
+    /* border: 20px solid white; */
+    top: -267px;
+    background: linear-gradient(90deg, #60009F 5%, #360147, #000000);
+}
+#food1{
+    height: 67%;
+    width: 14%;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    box-shadow:0px 0px 20px black ;
+}
+#food2{
+    height: 67%;
+    width: 14%;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    box-shadow:0px 0px 20px black ;
+}
+
+.toggle1{
+    transition: all 0.5s ease-in-out;
+    background: linear-gradient(#EEE9E6 5%,#E9D34C, #5E8700);
+    border-radius: 10%;
+    filter: drop-shadow(0px 0px 20px black);
+    color: #fff;
+}
+
+.toggle2{
+    transition: all 0.5s ease-in-out;
+    background: linear-gradient(#E3CE9F 5%,#ECAD39,#963218);
+    border-radius: 10%;
+    filter: drop-shadow(0px 0px 20px black);
+    color: #fff;
+}
+
+.toggle3{
+    transition: all 0.5s ease-in-out;
+    background: linear-gradient(#60009F 5%, #30023f,#260132);
+    border-radius: 10%;
+    filter: drop-shadow(0px 0px 20px black);
+    color: #fff;
+}
+
+.toggle4{
+    transition: all 0.5s ease-in-out;
+    background: linear-gradient(#EDC3C5 5%,#E49DA3, #DA4C5A);
+    border-radius: 10%;
+    filter: drop-shadow(0px 0px 20px black);
+    color: #fff;
+}
+
+.togglet{
+    color: #fff;
+}
+
+.t1{
+    width: 14%;
+}
+
+#food3{
+    height: 67%;
+    width: 14%;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    box-shadow:0px 0px 20px white ;
+}
+
+#food4{
+    height: 67%;
+    width: 14%;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    box-shadow:0px 0px 20px white ;
+}
+
+.foodc{
+    position: relative;
+    left: -5pc;
+    top: -1pc;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.container{
+    position: relative;
+    top: -5pc;
+    left: -2pc;
+    background: black;
+    height: 1000pc;
+    width: 1000pc;
+    overflow: hidden;
+}
+
+.juice{
+    position: relative;
+    top: -25pc;
+    left: 2pc;
+    z-index: 2;
+    transition: all cubic-bezier(0.19, 1.1023,0.5) ease;
+}
+
+#mock1{
+    position: relative;
+    height: 40pc;
+    width: 28pc;
+    top: -22pc;
+    left: -91px;
+    filter: drop-shadow(0px 0px 20px black);
+}
+
+marquee{
+    font-size: 50px; 
+    position: relative; 
+    top: -120pc;
+    color:white;
+}
+
+#mock2{
+    position: relative;
+    height: 30pc;
+    width: 25pc;
+    top: -15pc;
+    left: -50px;
+    filter: drop-shadow(0px 0px 20px black);
+}
+
+#mock3{
+    position: relative;
+    height: 28pc;
+    width: 23pc;
+    top: -15pc;
+    left: -23px;
+    filter: drop-shadow(0px 0px 20px black);
+}
+
+#mock4{
+    position: relative;
+    height: 40pc;
+    width: 26pc;
+    top: -23pc;
+    left: -99px;
+    filter: drop-shadow(0px 0px 20px black);
+}
+
+#lmn{
+    height: 226px;
+    width: 371px;
+    position: relative;
+    top: -394px;
+    left: -160px;
+}
+
+#tail1{
+    position: relative;
+    top: -157%;
+    left: 0%;
+    font-size: 29px;
+    font-weight: 1000;
+    color: black;
+    background-color: transparent;
+    height: 106px;
+    padding-top: 323px;
+    padding-left: 32px;
+}
+
+#tail2{
+    position: relative;
+    top: -119%;
+    left: 0%;
+    font-size: 29px;
+    font-weight: 1000;
+    color: black;
+    background-color: transparent;
+    height: 106px;
+    padding-top: 323px;
+    padding-left: 32px;
+}
+
+#tail3{
+    position: relative;
+    top: 69%;
+    left: 0%;
+    font-size: 29px;
+    font-weight: 1000;
+    color: black;
+    background-color: transparent;
+    height: 67px;
+    /* padding-top: 323px; */
+    padding-left: 32px;
+}
+
+#tail4{
+    position: relative;
+    top: -157%;
+    left: 0%;
+    font-size: 29px;
+    font-weight: 1000;
+    color: black;
+    background-color: transparent;
+    height: 106px;
+    padding-top: 323px;
+    padding-left: 18px;
+}
+
