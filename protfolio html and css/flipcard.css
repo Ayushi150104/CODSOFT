@@ -1,0 +1,213 @@
+body{
+    background-color: purple;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.maincontainer1{
+    position: relative;
+    width:250px;
+    height: 320px;
+    background:black;
+}
+
+.thecard1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+    background:bisque;
+}
+
+.thefront1{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: orangered;
+    color: bisque;
+    font-weight: 1000;
+    font-size: 50px;
+}
+#html{
+    position: relative;
+    top: 2pc;
+    left: 2.5pc;
+}
+
+#ja{
+    position: relative;
+    top: 2pc;
+    left: 2.5pc;
+}
+
+#js{
+    position: relative;
+    top: 2pc;
+    left: 2.5pc;
+}
+
+#css{
+    position: relative;
+    top: 2pc;
+    left: 2.5pc;
+}
+
+.theback1{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: orange;
+    color: bisque;
+    font-weight: 600;
+    font-size: 40px;
+    transform:rotateY(180deg);
+}
+
+.thecard1:hover{
+    transform: rotateY(180deg);
+}
+
+.maincontainer2{
+    position: relative;
+    width:250px;
+    height: 320px;
+    background:black;
+}
+
+.thecard2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+    background:bisque;
+}
+
+.thefront2{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: orangered;
+    color: bisque;
+    font-weight: 1000;
+    font-size: 50px;
+}
+
+.theback2{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: orange;
+    color: bisque;
+    font-weight: 600;
+    font-size: 40px;
+    transform:rotateY(180deg);
+}
+
+.thecard2:hover{
+    transform: rotateY(180deg);
+}
+
+.maincontainer3{
+    position: relative;
+    width:250px;
+    height: 320px;
+    background:black;
+}
+
+.thecard3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+    background:bisque;
+}
+
+.thefront3{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: orangered;
+    color: bisque;
+    font-weight: 1000;
+    font-size: 50px;
+}
+
+.theback3{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: orange;
+    color: bisque;
+    font-weight: 600;
+    font-size: 40px;
+    transform:rotateY(180deg);
+}
+
+.thecard3:hover{
+    transform: rotateY(180deg);
+}
+
+.maincontainer4{
+    position: relative;
+    width:250px;
+    height: 320px;
+    background:black;
+}
+
+.thecard4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+    background:bisque;
+}
+
+.thefront4{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: orangered;
+    color: bisque;
+    font-weight: 1000;
+    font-size: 50px;
+}
+
+.theback4{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: orange;
+    color: bisque;
+    font-weight: 600;
+    font-size: 40px;
+    transform:rotateY(180deg);
+}
+
+.thecard4:hover{
+    transform: rotateY(180deg);
+}
+
+.shape{
+    position: relative;
+    top: 45px;
+    left: 36px;
+    width: 143px;
+    height: 189px;
+    background-color: #fff;
+    clip-path: polygon(50% 0%, 100% 0%, 92.5% 80%, 50% 90%, 9% 80%, 0% 0%);
+}
